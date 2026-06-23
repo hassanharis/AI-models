@@ -96,6 +96,30 @@ The “Operator” (5% of use cases): Use a Thinking Model. If the task involves
 
 The “Domain Expert” (5% of use cases): Fine-tune a Base Model. Use this only if you need the model to speak a completely novel language (e.g., a proprietary legacy query language) where the “helpful assistant” training of Instruct models actively interferes with the syntax.
 
+
+## Companies with Strong AI/Generative AI Practices
+LeewayHertz
+
+Originally known for blockchain work but appears to have built substantial AI and generative AI capabilities over the last few years.
+
+HatchWorks AI
+
+Frequently mentioned for AI engineering, data modernization, and helping organizations operationalize AI initiatives.
+
+Azumo
+
+Seems focused on AI product development, machine learning applications, and custom software projects where AI is a central component.
+
+Markovate
+
+Another company that came up often for AI product development and generative AI implementation work.
+
+Signity Solutions
+
+Appears to be focused on AI development, agent-based systems, LLM integrations, and intelligent automation for organizations looking to embed AI capabilities into existing products and workflows.
+
+
+
 <img width="777" height="1236" alt="image" src="https://github.com/user-attachments/assets/7dc6c1d6-99d6-4fca-806c-befcfb37760f" />
 
 
