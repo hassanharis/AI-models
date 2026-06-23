@@ -51,6 +51,14 @@ Takeaway:
 
 
 ## When to use which?
+
+Chat models tend to produce more natural, expressive writing
+Reasoning models can feel more structured or analytical
+Base models → perfect for training or teaching new skills
+Chat models → great for writing, conversation, creativity
+Reasoning models → ideal for tough, multi-step challenges
+Hybrid models → the best general-purpose solution today
+
 If you are building an AI feature, you now have three architectural choices:
 
 The “App” (90% of use cases): Use an Instruct Model with Tool Calling (e.g. MCP, function calls, Skills). You want a conversational assistant that can look up data or do stuff. It’s fast, cheap, and lagom (Swedish for balanced/optimal) for most text tasks.
