@@ -1,9 +1,17 @@
 # AI-models
 
 ## Three Main Types of Language Models
-Base vs. Chat & Instruct vs. Reasoning
+Base vs. Chat & Instruct vs. Reasoning vs. Thinking
 
-Other Math LLMs, Code LLMs
+Specialised/Fine-Tuned LLMs
+
+Code: Codex, Code Llama, CodeT5, StarCoder, WizardCoder
+Math: WizardMath, MathGLM, Minerva
+Science: Galactica, BioGPT, ChemBERTa
+Legal: LexGPT, CaseLaw-GPT
+Medical: Med-PaLM, BioBERT, ClinicalBERT
+Finance: BloombergGPT, FinBERT
+Translation: NLLB, mBART, OPUS-MT
 
 1️⃣ Base Models
 📚 The well-read student before exam practice.
@@ -28,15 +36,36 @@ Ideal use cases: General chat, Writing and editing, Summaries, Content generatio
 - Built on instruct models, but optimized with RL (Reinforcement Learning) + process supervision
 - Trained to reason step-by-step, not just answer
 - Excels at math, coding, planning
-- multi-step reasoning, intermediate thoughts, chains of logic, internal reflections, step-by-step breakdowns
+- multi-step reasoning, intermediate thoughts, chains of logic, internal reflections, step-by-step breakdowns, Chain-of-Thought (CoT) Prompting, Tree-of-Thought (ToT) / Graph-of-Thought (GoT),Program-Aided Language Models (PAL) / Tool-use Models: These models can generate code (e.g., Python) to solve problems, execute that code, and then use the results to formulate their final answer.
 - Reasoning models excel at: Math and logic, Code reasoning, Troubleshooting, Planning, Analytical tasks, Anything requiring structured thought
 
 👉 Examples: OpenAI o3, Claude Sonnet 4
+
+<img width="1100" height="651" alt="image" src="https://github.com/user-attachments/assets/13c7f0e6-5afd-466d-b930-0db47a2d38fc" />
+
 
 Takeaway:
  👉 Base = knowledge
  👉 Instruct = directions
  👉 Reasoning = problem-solving
+
+ <img width="1100" height="414" alt="image" src="https://github.com/user-attachments/assets/7ddc1807-cfdf-4556-90f1-43029b3a276c" />
+
+Thinking Models
+While closely related to reasoning, “thinking models” or models with enhanced planning often emphasise planning, self-correction, and deliberation. These models might involve iterative processes where the LLM refines its understanding, generates multiple drafts, or seeks external information to improve its output. This often involves an “inner monologue” or an “agentic” approach.
+
+Goal: To achieve higher quality, more nuanced, and more robust outputs by allowing the model to engage in a more deliberate and potentially iterative internal process.
+
+Example: An LLM drafting an essay, then identifying weaknesses and revising paragraphs for better flow and coherence, or an agentic LLM browsing the web to gather information before answering a complex query.
+
+How they “think”:
+
+Self-Correction/Self-Refinement: The LLM evaluates its own generated output against certain criteria or internal “critics” and then attempts to revise and improve it. This is akin to a human reviewing their work.
+Iterative Generation: The model generates initial thoughts, then elaborates, refines, and expands on them in multiple passes.
+“Inner Monologue” / Scratchpad: The LLM generates internal thoughts or plans (which might not be shown to the user) to guide its final output. This allows for more deliberate processing before committing to a response.
+Agentic LLMs: LLMs that can act as “agents” by setting goals, breaking them into sub-goals, executing tools, observing results, and correcting their course. This embodies a more active and thoughtful process.
+
+
 
 
 | Model Type      | What It Does                         | Best For                                                                                             | Primary Function                            | Performance Trade-offs                                                          |   |   |   |
