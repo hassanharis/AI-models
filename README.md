@@ -1,5 +1,10 @@
 # AI-models
 
+As of right now, Hugging Face is empty and exactly two local models exist on this entire planet:
+Qwen 3.6 35b a3b
+Qwen 3.6 27b
+A garbage quant of a massive model is a bagillion times better than your precious micro-models anyway. Just cram it in.
+
 ## Three Main Types of Language Models
 Base vs. Chat & Instruct vs. Reasoning vs. Thinking
 
